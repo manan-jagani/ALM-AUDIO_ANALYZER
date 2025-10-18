@@ -1,5 +1,6 @@
-
-# Python / Virtualenv
+# ==========================
+#  PYTHON / FASTAPI / STREAMLIT
+# ==========================
 venv/
 .venv/
 backend/venv/
@@ -10,20 +11,59 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.pdb
 
 # Data / Logs / Secrets
 data/
 *.log
-.env
 *.sqlite3
 *.db
+.env
+.env.*
+!*.example
+!.env.example.backup
 
-# IDE / Editor
+# ==========================
+#  DOCKER
+# ==========================
+docker-compose.yml
+*.env.docker
+.docker/
+Dockerfile.*~
+*.pid
+
+# ==========================
+#  IDE / EDITOR
+# ==========================
 .vscode/
 .idea/
+*.code-workspace
 .ipynb_checkpoints/
 
-# OS
+# ==========================
+#  OS / SYSTEM FILES
+# ==========================
 .DS_Store
 Thumbs.db
+desktop.ini
 
+# ==========================
+#  NODE / FRONTEND (if used)
+# ==========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+__MACOSX/
+
+# ==========================
+#  BACKUPS / TEMP
+# ==========================
+*.bak
+*.tmp
+*.swp
+*.zip
+*.tar.gz
+safe_push.bat
