@@ -1,0 +1,29 @@
+
+# Python / Virtualenv
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Bytecode / Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data / Logs / Secrets
+data/
+*.log
+.env
+*.sqlite3
+*.db
+
+# IDE / Editor
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
